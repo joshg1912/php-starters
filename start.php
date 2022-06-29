@@ -12,6 +12,8 @@
 
     echo $data["site_tite"] . " " . $data["site_desc"];
     
+    $numbers = ["number1" => 10, "number2" => 20];
+    echo $numbers["number1"] + $numbers["number2"];
     ?>
 </body>
 </html>
