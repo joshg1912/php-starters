@@ -39,6 +39,13 @@
         hero_Section();
         about_Section();
     }
+
+    function say_Something($message) {
+        echo $message;
+    }
+
+    say_Something("This is my message");
+
     ?>
 </body>
 </html>
