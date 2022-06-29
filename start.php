@@ -14,6 +14,10 @@
     
     $numbers = ["number1" => 10, "number2" => 20];
     echo $numbers["number1"] + $numbers["number2"];
+
+    for($i = 0; $i <= 10; $i++) {
+        echo $i;
+    }
     ?>
 </body>
 </html>
